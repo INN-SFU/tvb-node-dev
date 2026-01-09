@@ -55,15 +55,27 @@ docker --version
 
 
 ### 3. Pull the Docker image
-#### Mac and Linux Users:
-i. Open a terminal
-ii. Paste & run:
-  ```docker pull lrokos/tvb_node:latest``
-  
-#### Windows Users:
-#### All Users:
-How to pull docker image and where to pull to
+Once Docker Desktop is installed and running, you will need to download (pull) the workshop Docker image. This image contains all required software and dependencies for the workshop.
 
+> **Important:** Docker Desktop must be open and running before you proceed.
+
+---
+#### Windows Users:
+1. Open your preferred terminal application. You may use Windows PowerShell, Command Prompt, or Windows Terminal.
+2. Paste and run the following command:
+
+```bash
+docker pull lrokos/tvb_node:latest
+```
+
+#### macOS Users
+
+1. Open a **Terminal**.
+2. Paste and run the following command:
+
+```bash
+docker pull lrokos/tvb_node:latest
+```
 
 ### 4. Start your JupyterLab Session
 
