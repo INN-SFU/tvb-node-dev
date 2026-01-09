@@ -56,6 +56,10 @@ docker --version
 
 ### 3. Pull the Docker image
 #### Mac and Linux Users:
+i. Open a terminal
+ii. Paste & run:
+  ```docker pull lrokos/tvb_node:latest``
+  
 #### Windows Users:
 #### All Users:
 How to pull docker image and where to pull to
