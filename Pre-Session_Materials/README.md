@@ -1,6 +1,7 @@
 # Pre-Session Instructions
 
-## 1. Complete the Pre-session Survey
+## 1. Complete the [Pre-session Survey](https://forms.office.com/r/Mi4dPaDyMN)
+Please complete the [survey](https://forms.office.com/r/Mi4dPaDyMN) - it should only take ~5 minutes and it will help us customize the workshop to your needs and abilities.
 
 ## 2. TVB Install, Setup, and Verification
 <details>
