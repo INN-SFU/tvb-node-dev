@@ -3,6 +3,8 @@
 ## 1. Complete the [Pre-session Survey](https://forms.office.com/r/Mi4dPaDyMN)
 Please complete the [survey](https://forms.office.com/r/Mi4dPaDyMN). It should only take you ~5 minutes and it will help us customize the workshop to your needs and abilities.
 
+<br>
+
 ## 2. TVB Install, Setup, and Verification
 <details>
  <summary> Click here to expand setup instructions </summary>
@@ -32,5 +34,6 @@ Use the command line to start the JupyterLab session using Docker, binding to yo
 ### 5. Run the Installation_Test.ipynb notebook
 </details>
 
+<br>
 
 ## 3. Watch Past Recordings
