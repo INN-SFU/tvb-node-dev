@@ -44,12 +44,11 @@ This workshop introduces participants to **personalized brain network modeling**
 
 Prior to the session participants are asked to:  
 
-1. **Watch preparatory recordings** covering foundational TVB concepts.  
-2. **Complete a brief pre-session survey**.  
-3. **Install the software environment container** according to the instructions provided.  
-4. **Clone this repository** and run **one cell in the Jupyter notebook** to verify successful environment setup.  
+1. **Complete a brief [pre-session survey](https://forms.office.com/r/Mi4dPaDyMN)**.  
+2. **Install & verify the software environment container** according to the [instructions](/Pre-Session_Materials#2-tvb-install-setup-and-verification) provided.  
+3. **Watch preparatory recordings** covering foundational TVB concepts.
 
-All pre-session steps are documented in the **pre-workshop** folder.
+All pre-session steps are documented in the [**pre-session materials**](/Pre-Session_Materials) folder.
 
 **Technical Support:**  
 
