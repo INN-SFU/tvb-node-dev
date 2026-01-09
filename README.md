@@ -35,6 +35,7 @@ This workshop introduces participants to **personalized brain network modeling**
 | 3:20–3:50 PM      | Break #2 |
 | 3:50–4:50 PM      | **Module 4:** Model Evaluation & Analyses |
 | 4:50–5:30 PM      | Discussion & Concluding Remarks |
+
 *Schedule subject to change.*
  
 ---
