@@ -11,6 +11,8 @@ Please complete the [survey](https://forms.office.com/r/Mi4dPaDyMN). It should o
   
 ### 1. Follow Docker setup instructions 
 Docker installation @ Leanne
+https://docs.docker.com/desktop/setup/install/windows-install/
+https://docs.docker.com/desktop/setup/install/mac-install/
 
 
 ### 2. Identify or Create a tvb folder on your computer
