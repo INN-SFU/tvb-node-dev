@@ -37,6 +37,7 @@ Use the command line to start the JupyterLab session using Docker, binding to yo
 <br>
 
 ## 3. Watch Past Recordings
+Please watch these introductory videos to TVB from a similar [TVB workshop series](https://github.com/McIntosh-Lab/tvb_study_group/tree/main)
 1. [**TVB Foundational Theory**](https://1sfu-my.sharepoint.com/personal/jwa415_sfu_ca/_layouts/15/stream.aspx?id=%2Fpersonal%2Fjwa415%5Fsfu%5Fca%2FDocuments%2FTVB%5Fstudy%5Fgroup%2F1%2Emov&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&ga=1&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview%2E90bb1e2b%2Dccac%2D467b%2D8370%2D71004d590783) - A (nearly) math-free primer on large-scale modelling in TheVirtualBrain
 
 2. [**Post-processing Considerations**](https://1sfu-my.sharepoint.com/:v:/g/personal/jwa415_sfu_ca/EVdHkycGT_VBscB6KE7Z4F0BNmcmErMSRIpNWQ_SkF5sPQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=aA0YLz) - Imaging inputs and post-processing considerations for brain network modelling
