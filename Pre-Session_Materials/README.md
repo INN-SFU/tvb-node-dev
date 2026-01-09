@@ -1,6 +1,8 @@
 # Pre-Session Instructions
 
-## Setup
+## 1. Complete the Pre-session Survey
+
+## 2. TVB Install, Setup, and Verification
 <details>
  <summary> Click here to expand setup instructions </summary>
   
@@ -28,3 +30,6 @@ Use the command line to start the JupyterLab session using Docker, binding to yo
 
 ### 5. Run the Installation_Test.ipynb notebook
 </details>
+
+
+## 3. Watch Past Recordings
