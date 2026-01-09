@@ -2,7 +2,7 @@
 
 ## Setup
 <details>
- <summary> Details </summary>
+ <summary> Click here to expand setup instructions </summary>
   
 ### 1. Follow Docker setup instructions 
 Docker installation @ Leanne
