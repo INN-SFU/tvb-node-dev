@@ -1,73 +1,84 @@
-# The Virtual Brain (TVB) Study Group
+# The Virtual Brain Node: Personalized Simulations for Cognitive Neuroscience 
 
-This is the repository for The Virtual Brain (TVB) Study Group, a introductory course to running TVB simulations with Python. Resources (documentation, notebooks, tutorials) for each session can be found within each session's folders above or by clicking the links below.
+### Welcome to the repository for **SFU’s Institute for Neuroscience and Neurotechnology (INN)'s TVB Node Workshop**:  
 
-If you're looking for our TVB modelling workflow, see the Notebooks and Homework for each session. A Quick-start Guide featuring our entire TVB workflow in a single document will also be released shortly! 
+---
 
-<br>
+## Workshop Overview  
+**Date & Time:** March 6, 2026, 8:00 AM – 5:30 PM  
+**Location:** Vancouver, BC, Canada (in conjunction with the Cognitive Neuroscience Society 2026 Annual Meeting\*)  
 
-## REQUIREMENTS 
+This workshop introduces participants to **personalized brain network modeling** using [TheVirtualBrain (TVB)](https://www.thevirtualbrain.org) — an open-source platform for simulating large-scale brain dynamics grounded in empirical data. Designed for cognitive neuroscientists, the session combines conceptual foundations with hands-on experience.
 
-In order to execute the Notebooks in this repository, you will need to 1) install TVB and 2) have access to high-performance computing resources, specifically the [Digital Research Alliance of Canada (DRA)](https://www.alliancecan.ca/en) compute clusters. 
+### Topics covered include: 
 
-1. Install TVB with these [Installation Instructions](https://github.com/McIntosh-Lab/tvb_demo/tree/main). If you encounter different _installation_ instructions in a notebook or recording, always follow the steps provided in the tvb_demo instead as it is more up-to-date. If you encounter different _simulation_ instructions, follow the steps provided in this tvb_study_group repo instead.
-
-3. See points 1 through 3 [here](https://github.com/McIntosh-Lab/tvb_study_group/blob/main/Session_2-Post-processing/Session%202%3A%20Post-processing.md#homework) for information about access to DRA computing resources.
-
-<br>
-
-## QUICKSTART SIMULATION
-
-We strongly recommend going through all the course material in this repository before using the quickstart simulation code for [a single interactive simulation](https://github.com/McIntosh-Lab/tvb_demo/tree/main#tvb-demo-quickstart-simulation---interactive-sessionjob-single-simulation) or [multiple simulations](https://github.com/McIntosh-Lab/tvb_demo/tree/main#tvb-demo-quickstart-simulation---multiple-job-submission-multiple-simulations).
-
+- Core principles of nonlinear brain dynamics  
+- TVB software architecture and workflows  
+- Building the components of a simple TVB simulation  
+- Tuning models and model parameter optimization
+- Evaluating model performance and validity  
+- Applications of TVB in ageing and pediatric research  
 
 
-<br>
+### Workshop Schedule
 
-## COURSE OVERVIEW
+| Time                | Module |
+|---------------------|--------|
+| 8:00–9:00 AM      | Registration, Coffee & Technical Support |
+| 9:00–9:10 AM      | Welcome & Introductions |
+| 9:10–9:40 AM      | TVB Basics |
+| 9:40–11:00 AM     | **Module 1:** Setting up & exploring a simple TVB simulation |
+| 11:00–11:30 AM    | Break #1 |
+| 11:30 AM–12:30 PM | **Module 2:** Model Tuning |
+| 12:30–2:00 PM     | Lunch |
+| 2:00–3:20 PM      | **Module 3:** Model Personalization |
+| 3:20–3:50 PM      | Break #2 |
+| 3:50–4:50 PM      | **Module 4:** Model Evaluation & Analyses |
+| 4:50–5:30 PM      | Discussion & Concluding Remarks |
+*Schedule subject to change.*
+ 
+---
 
-## Session 1: Theory
+## Pre-Workshop Preparation  
 
-_Some of the foundational theory - an introduction to the what, why, and how of modelling with The Virtual Brain._
+Prior to the session participants are asked to:  
 
-&nbsp;&nbsp;&nbsp;&nbsp;[Slides](https://docs.google.com/presentation/d/1m162HYdZUSFA2WCnUa9mi3SdtjetL12cw4RU8mI_GLk/edit?usp=drive_link) - [Recording](https://1sfu-my.sharepoint.com/:v:/g/personal/jwa415_sfu_ca/EfPr6L_q7qhMnKndRV4BMIEBjfQIFJbZaM_fxOUvnMuMIg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=Jjam4s) - [Notes](Session_1-Theory/Session%201%3A%20Theory.md)
+1. **Watch preparatory recordings** covering foundational TVB concepts.  
+2. **Complete a brief pre-session survey**.  
+3. **Install the software environment container** according to the instructions provided.  
+4. **Clone this repository** and run **one cell in the Jupyter notebook** to verify successful environment setup.  
 
-<br>
+All pre-session steps are documented in the **pre-workshop** folder.
 
-## Session 2: Post-processing
+**Technical Support:**  
 
-_What needs to be done with our neuroimaging data before we can start creating our TVB models?_
+- Online office hours will be held prior to the workshop (dates TBA). 
+- In-person assistance on the day of the workshop: March 6th, 2026 from 8:00–9:00 AM  
 
-&nbsp;&nbsp;&nbsp;&nbsp;[Slides](https://docs.google.com/presentation/d/1D30noTEmEf7WG79DQvx8s5TIpO1v7XMXegMtXps2ouo/edit?usp=drive_link) - [Recording](https://1sfu-my.sharepoint.com/:v:/g/personal/jwa415_sfu_ca/EVdHkycGT_VBscB6KE7Z4F0BPPD7KVjKVHhxYLQU2NHcUw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=DWHDEX) - [Notes](Session_2-Post-processing/Session%202%3A%20Post-processing.md)
+---
 
-<br>
+## Facilitators
+- **Randy McIntosh** – Director, INN & Co-Founder, TheVirtualBrain  
+- **Kelly Shen** – Director of Operations, INN  
+- **Leanne Rokos** – Research Technician, INN  
+- **Justin Wang** – PhD Candidate, Simon Fraser University  
 
-## Session 3: Simulation
 
-_Example simulation code for a single set of parameter combinations._
+---
+## Additional Information & Resources
 
-&nbsp;&nbsp;&nbsp;&nbsp;No Slides - [Recording](https://1sfu-my.sharepoint.com/:v:/g/personal/jwa415_sfu_ca/EVU7MR6JeIpKn8nb44BiD9IB8yJJkqfycfgY4wCxx9B6ag?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=8CdC0g) - [Notebook](Session_3-Simulation/Session3_Single_Simulation.ipynb)
+If you have questions or need technical assistance before the workshop, please **use the [Discussion Board](https://github.com/INN-SFU/tvb-node/discussions)**.
 
-<br>
+**Resources:**
 
-## Session 4: Jobs & PSE
+- [**Annotated Bibliography**](https://1sfu-my.sharepoint.com/:w:/g/personal/lrokos_sfu_ca/IQAMSNidGLVIRZJ0yGZaRHHXAUpFNgnCqSbVPos7pRP3ytM?e=xPwgdp) – Key references for TVB and brain network modeling  
+- [**Glossary of Terms**](https://1sfu-my.sharepoint.com/:w:/g/personal/lrokos_sfu_ca/IQB6lQIG1unXRI6bQ96bwp_9AQYVia0xiGb7WnO0CaJlFJg?e=LcaQuS) – Definitions of frequently used concepts and terminology
+- [**TVB-Study-Group**](https://github.com/McIntosh-Lab/tvb_study_group/tree/main) – Materials and recordings from a similar TVB workshop series
+- [**TVB Edupack**](https://thevirtualbrain.org/tvb/zwei/newswire-educase) – Educational materials and tutorials for TVB  
+- [**TVB Google Discussion Group**](https://groups.google.com/g/tvb-users) – Community forum for questions and discussion  
+- [**TVB Source Code**](https://github.com/the-virtual-brain/tvb-root) – TVB source code open-source repository 
 
-_Parameter sweeps. How to submit multiple simulations as jobs on a HPC cluster._
+---
+## License
 
-&nbsp;&nbsp;&nbsp;&nbsp;[Slides](https://docs.google.com/presentation/d/19SKdmSUgU53EFdFqIxvTQMlsPrS7PcvaE6op9ZtRY8E/edit?usp=share_link) - [Recording](https://1sfu-my.sharepoint.com/:v:/g/personal/jwa415_sfu_ca/EYDUUvjf-wtNocPzvwJDj1IBbLpEv0laM5e2jEwInNTtIw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=i5YR3G) - [Scripts](Session_4-Jobs_and_PSE)
-
-<br>
-
-## Session 5: Outputs
-
-_Taking a look at some of our parameter sweep and simulation outputs. What are our optimal simulations and parameter combinations?_
-
-&nbsp;&nbsp;&nbsp;&nbsp;[Slides](https://docs.google.com/presentation/d/19SKdmSUgU53EFdFqIxvTQMlsPrS7PcvaE6op9ZtRY8E/edit?usp=share_link) - [Recording](https://1sfu-my.sharepoint.com/:v:/g/personal/jwa415_sfu_ca/EYgkdHbSpZhBsUh0rvB6xgkBm1q2vQIYVd7e3NQI3TMfSQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=iPPhB7) - [Notes](Session_5-Identifying_and_evaluating_optimal_simulations/Session_5-Identifying_and_evaluating_optimal_simulations.md)
-	
-<br>
-
-## Session 6: Analyses
-
-_Exploring some validation approaches and other analyses._
-
-&nbsp;&nbsp;&nbsp;&nbsp;[Slides](https://docs.google.com/presentation/d/19SKdmSUgU53EFdFqIxvTQMlsPrS7PcvaE6op9ZtRY8E/edit?usp=share_link) - No Recording - [Notebook](Session_6-Analyses/Session6_Investigating_Noise_Seeds.ipynb)
+All materials in this repository are provided for educational purposes and workshop use. See **LICENSE** for details.
