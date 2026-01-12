@@ -6,7 +6,7 @@
 
 ## Workshop Overview  
 **Date & Time:** March 6, 2026, 8:00 AM – 5:30 PM  
-**Location:** Vancouver, BC, Canada (in conjunction with the Cognitive Neuroscience Society 2026 Annual Meeting\*)  
+**Location:** Vancouver, BC, Canada (in conjunction with the Cognitive Neuroscience Society 2026 Annual Meeting)  
 
 This workshop introduces participants to **personalized brain network modeling** using [TheVirtualBrain (TVB)](https://www.thevirtualbrain.org) — an open-source platform for simulating large-scale brain dynamics grounded in empirical data. Designed for cognitive neuroscientists, the session combines conceptual foundations with hands-on experience.
 
