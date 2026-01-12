@@ -15,7 +15,8 @@ This workshop uses a containerized software environment. Please install **Docker
 #### System Requirements
 - A **64-bit** operating system  
 - At least **4 GB of RAM** recommended  
-- Privileges to install software  
+- Privileges to install software
+- At least **3.5 GB of storage** required
 
 ---
 
@@ -140,3 +141,7 @@ Please watch these introductory videos to TVB from a similar [TVB workshop serie
 1. [**TVB Foundational Theory**](https://1sfu-my.sharepoint.com/personal/jwa415_sfu_ca/_layouts/15/stream.aspx?id=%2Fpersonal%2Fjwa415%5Fsfu%5Fca%2FDocuments%2FTVB%5Fstudy%5Fgroup%2F1%2Emov&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&ga=1&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview%2E90bb1e2b%2Dccac%2D467b%2D8370%2D71004d590783) - A (nearly) math-free primer on large-scale modelling in TheVirtualBrain
 
 2. [**Post-processing Considerations**](https://1sfu-my.sharepoint.com/:v:/g/personal/jwa415_sfu_ca/EVdHkycGT_VBscB6KE7Z4F0BNmcmErMSRIpNWQ_SkF5sPQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=aA0YLz) - Imaging inputs and post-processing considerations for brain network modelling
+
+
+## 4. Bring a Laptop to the Session
+Please ensure that you bring a computer with at least 4 GB of RAM and 1 GB of storage (after completion of TVB Install, Setup, and Verification).
