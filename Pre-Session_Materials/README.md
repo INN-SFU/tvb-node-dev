@@ -16,7 +16,6 @@ Please complete the [survey](https://forms.office.com/r/Mi4dPaDyMN). It should o
 This workshop uses a containerized software environment. Please install **Docker Desktop** on your computer prior to the workshop.
 
 
-<br>
 
 #### System Requirements
 - A **64-bit** operating system  
@@ -28,28 +27,35 @@ This workshop uses a containerized software environment. Please install **Docker
 
 #### Windows
 
-&emsp;&emsp; i) Download Docker Desktop for Windows: https://docs.docker.com/desktop/setup/install/windows-install/
+&emsp;&emsp; i) Download Docker Desktop for Windows: 
+
+&emsp;&emsp; &emsp;&emsp; https://docs.docker.com/desktop/setup/install/windows-install/
 
 &emsp;&emsp; ii) Follow the on-screen installation instructions.
 
-&emsp;&emsp; iii) When prompted, enable **WSL 2** (Windows Subsystem for Linux). _Docker Desktop will guide you through this if it is not already installed._
+&emsp;&emsp; iii) When prompted, enable **WSL 2** (Windows Subsystem for Linux).
+
+&emsp;&emsp; &emsp;&emsp; _Docker Desktop will guide you through this if it is not already installed._
 
 &emsp;&emsp; iv) Launch Docker Desktop and confirm it is running (you should see "Engine running" in the bottom left corner).
 
-<br>
 
 #### macOS
 
-&emsp;&emsp; i) Download Docker Desktop for macOS: https://docs.docker.com/desktop/setup/install/mac-install/
+&emsp;&emsp; i) Download Docker Desktop for macOS: 
 
-&emsp;&emsp; ii) Choose the correct installer for your system: _**Apple Silicon (M1/M2/M3)** or **Intel** processor_
+&emsp;&emsp; &emsp;&emsp; https://docs.docker.com/desktop/setup/install/mac-install/
+
+&emsp;&emsp; ii) Choose the correct installer for your system: 
+
+&emsp;&emsp; &emsp;&emsp;  _**Apple Silicon (M1/M2/M3)** or **Intel** processor_
 
 &emsp;&emsp; iii) Follow the on-screen installation instructions.
 
 &emsp;&emsp; iv) Launch Docker Desktop and confirm it is running (you should see "Engine running" in the bottom left corner).
 
-
 <br>
+
 
 #### Verify Installation
 
@@ -106,10 +112,13 @@ docker pull lrokos/tvb_node:latest
 
 ### 3. Create a tvb folder on your computer
 
-i. Create a folder called `tvb` on your computer. You may choose to place it in your Documents folder.
-ii. Copy the full filepath to this `tvb` folder
-   - MacOS users can right-click their `tvb` folder and then press `Copy` or `Command+C`
-   - Windows users can right-click their `tvb` folder and then press `Copy as path` or `Ctrl+Shift+C`
+&emsp;&emsp; i) Create a folder called `tvb` on your computer. You may choose to place it in your Documents folder.
+
+&emsp;&emsp; ii) Copy the full filepath to this `tvb` folder
+
+&emsp;&emsp; &emsp;&emsp;    - MacOS users can right-click their `tvb` folder and then press `Copy` or `Command+C`
+
+&emsp;&emsp; &emsp;&emsp;    - Windows users can right-click their `tvb` folder and then press `Copy as path` or `Ctrl+Shift+C`
 
 
 <br>
@@ -120,15 +129,15 @@ ii. Copy the full filepath to this `tvb` folder
 
 ### 4. Start your JupyterLab Session
 
-i) While Docker Desktop is running, open your preferred terminal application (see Section 2 for instructions on which application to use) if not already open
+&emsp;&emsp; i) While Docker Desktop is running, open your preferred terminal application (see Section 2 for instructions on which application to use) if not already open
 
-ii) Paste and run the following command, substituting `/your/tvb/path/here` with the filepath you copied in Section 3:
+&emsp;&emsp; ii) Paste and run the following command, substituting `/your/tvb/path/here` with the filepath you copied in Section 3:
 
 ```bash
 docker run -p 8888:8888 -v /your/tvb/path/here:/tvb_node/tvb lrokos/tvb_node:latest
 ```
 
-iii) Your terminal should display a message like the following. Copy either of the three paths from your terminal into your internet browser address bar (try one of the other paths if one doesn't work).
+&emsp;&emsp; iii) Your terminal should display a message like the following. Copy either of the three paths from your terminal into your internet browser address bar (try one of the other paths if one doesn't work).
 
 ```bash
     To access the server, open this file in a browser:
@@ -146,17 +155,17 @@ iii) Your terminal should display a message like the following. Copy either of t
 
 ### 5. Clone a copy of this tvb-node repository onto your computer
 
-i) In the JupyterLab window in your internet browser, locate the navigation pane on the left side.
+&emsp;&emsp; i) In the JupyterLab window in your internet browser, locate the navigation pane on the left side.
 
-ii) Double click the `tvb` folder to enter it.
+&emsp;&emsp; ii) Double click the `tvb` folder to enter it.
 
-iii) Open a Terminal tab by pressing `Terminal` under the `Other` heading on the right side.
+&emsp;&emsp; iii) Open a Terminal tab by pressing `Terminal` under the `Other` heading on the right side.
 
-iv) Running the `pwd` command should output `/tvb_node/tvb`. If not, run `cd /tvb_node/tvb`.
+&emsp;&emsp; iv) Running the `pwd` command should output `/tvb_node/tvb`. If not, run `cd /tvb_node/tvb`.
 
-v) Paste and run the following command: `git clone https://github.com/INN-SFU/tvb-node.git`
+&emsp;&emsp; v) Paste and run the following command: `git clone https://github.com/INN-SFU/tvb-node.git`
 
-vi) The tvb-node repository should now exist on your local computer in the `tvb` folder!
+&emsp;&emsp; vi) The tvb-node repository should now exist on your local computer in the `tvb` folder!
 
 <br>
 
@@ -166,13 +175,13 @@ vi) The tvb-node repository should now exist on your local computer in the `tvb`
 
 ### 6. Verify your installation with the Installation_Test.ipynb notebook
 
-i) In the JupyerLab window, navigate inside `tvb-node` folder
+&emsp;&emsp; i) In the JupyerLab window, navigate inside `tvb-node` folder
 
-ii) Then enter the `Pre-Session_Materials` folder
+&emsp;&emsp; ii) Then enter the `Pre-Session_Materials` folder
 
-iii) Double-click `Installation_Test.ipynb` to launch the notebook.
+&emsp;&emsp; iii) Double-click `Installation_Test.ipynb` to launch the notebook.
 
-iv) Follow the instructions in the notebook to verify your installation.
+&emsp;&emsp; iv) Follow the instructions in the notebook to verify your installation.
 
 <br>
 
@@ -184,13 +193,13 @@ iv) Follow the instructions in the notebook to verify your installation.
 
 You do not need to reinstall Docker or re-clone `tvb-node` every time you want to use this container to run TVB. You just need to:
 
-i) Launch Docker Desktop
+&emsp;&emsp; i) Launch Docker Desktop
 
-ii) Run `docker pull lrokos/tvb_node:latest` on a terminal to update the container 
+&emsp;&emsp; ii) Run `docker pull lrokos/tvb_node:latest` on a terminal to update the container 
 
-iii) Run `docker run -p 8888:8888 -v /your/tvb/path/here:/tvb_node/tvb lrokos/tvb_node:latest` on a terminal to launch the JupyterLab server
+&emsp;&emsp; iii) Run `docker run -p 8888:8888 -v /your/tvb/path/here:/tvb_node/tvb lrokos/tvb_node:latest` on a terminal to launch the JupyterLab server
 
-iv) Open the JupyterLab link in a browser
+&emsp;&emsp; iv) Open the JupyterLab link in a browser
 
 </details>
 
