@@ -45,7 +45,7 @@ This workshop introduces participants to **personalized brain network modeling**
 Prior to the session participants are asked to complete all pre-session steps in the [**pre-session materials**](/Pre-Session_Materials) folder:  
 
 1. **Complete a brief [pre-session survey](https://forms.office.com/r/Mi4dPaDyMN)**.  
-2. **Install & verify the software environment container** according to the [instructions](/Pre-Session_Materials#2-tvb-install-setup-and-verification) provided.  
+2. **Install & verify the software environment container** according to the [instructions](/Pre-Session_Materials#task-2-tvb-install-setup-and-verification) provided.  
 3. **Watch preparatory recordings** covering foundational TVB concepts.
 4. **Bring a laptop** to the session. Your computer should have at least 4 GB of RAM and 4 GB of storage.
 
