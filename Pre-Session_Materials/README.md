@@ -8,9 +8,15 @@ Please complete the [survey](https://forms.office.com/r/Mi4dPaDyMN). It should o
 ## TASK 2. TVB Install, Setup, and Verification
 <details>
  <summary> Click here to expand setup instructions </summary>
+
   
+<br>
+
 ### 1. Follow Docker setup instructions 
 This workshop uses a containerized software environment. Please install **Docker Desktop** on your computer prior to the workshop.
+
+
+<br>
 
 #### System Requirements
 - A **64-bit** operating system  
@@ -18,31 +24,32 @@ This workshop uses a containerized software environment. Please install **Docker
 - Privileges to install software
 - At least **4 GB of storage** required
 
+<br>
 
 #### Windows
 
-i) Download Docker Desktop for Windows:
-   - https://docs.docker.com/desktop/setup/install/windows-install/
+&emsp;&emsp; i) Download Docker Desktop for Windows: https://docs.docker.com/desktop/setup/install/windows-install/
 
-ii) Follow the on-screen installation instructions.
+&emsp;&emsp; ii) Follow the on-screen installation instructions.
 
-iii) When prompted, enable **WSL 2** (Windows Subsystem for Linux).
-   - Docker Desktop will guide you through this if it is not already installed.
+&emsp;&emsp; iii) When prompted, enable **WSL 2** (Windows Subsystem for Linux). _Docker Desktop will guide you through this if it is not already installed._
 
-iv) Launch Docker Desktop and confirm it is running (you should see "Engine running" in the bottom left corner).
+&emsp;&emsp; iv) Launch Docker Desktop and confirm it is running (you should see "Engine running" in the bottom left corner).
+
+<br>
 
 #### macOS
 
-i) Download Docker Desktop for macOS:
-   - https://docs.docker.com/desktop/setup/install/mac-install/
+&emsp;&emsp; i) Download Docker Desktop for macOS: https://docs.docker.com/desktop/setup/install/mac-install/
 
-ii) Choose the correct installer for your system:
-   - **Apple Silicon (M1/M2/M3)** or **Intel** processor
+&emsp;&emsp; ii) Choose the correct installer for your system: _**Apple Silicon (M1/M2/M3)** or **Intel** processor_
 
-iii) Follow the on-screen installation instructions.
+&emsp;&emsp; iii) Follow the on-screen installation instructions.
 
-iv) Launch Docker Desktop and confirm it is running (you should see "Engine running" in the bottom left corner).
+&emsp;&emsp; iv) Launch Docker Desktop and confirm it is running (you should see "Engine running" in the bottom left corner).
 
+
+<br>
 
 #### Verify Installation
 
@@ -53,34 +60,49 @@ docker --version
 ```
 If successful, you should see something along the lines of `Docker version 29.1.3, build f52814d`
 
+
+<br>
+
 ---
+
+
+<br>
 
 ### 2. Pull the Docker image
 Once Docker Desktop is installed and running, you will need to download (pull) the workshop Docker image. This image contains all required software and dependencies for the workshop.
 
 > **Important:** Docker Desktop must be open and running before you proceed.
 
----
-#### Windows Users:
-i) Open your preferred terminal application. You may use Windows PowerShell, Command Prompt, or Windows Terminal.
 
-ii) Paste and run the following command:
+<br>
 
-```bash
-docker pull lrokos/tvb_node:latest
-```
+#### Windows
+&emsp;&emsp; i) Open your preferred terminal application. You may use Windows PowerShell, Command Prompt, or Windows Terminal.
 
-#### macOS Users
-
-i) Open a **Terminal**.
-
-ii) Paste and run the following command:
+&emsp;&emsp; ii) Paste and run the following command:
 
 ```bash
 docker pull lrokos/tvb_node:latest
 ```
 
+<br>
+
+#### macOS
+
+&emsp;&emsp; i) Open a **Terminal**.
+
+&emsp;&emsp; ii) Paste and run the following command:
+
+```bash
+docker pull lrokos/tvb_node:latest
+```
+
+
+<br>
+
 ---
+
+<br>
 
 ### 3. Create a tvb folder on your computer
 
@@ -89,7 +111,12 @@ ii. Copy the full filepath to this `tvb` folder
    - MacOS users can right-click their `tvb` folder and then press `Copy` or `Command+C`
    - Windows users can right-click their `tvb` folder and then press `Copy as path` or `Ctrl+Shift+C`
 
+
+<br>
+
 ---
+
+<br>
 
 ### 4. Start your JupyterLab Session
 
@@ -111,7 +138,11 @@ iii) Your terminal should display a message like the following. Copy either of t
      or http://URL
 ```
 
+<br>
+
 ---
+
+<br>
 
 ### 5. Clone a copy of this tvb-node repository onto your computer
 
@@ -127,7 +158,11 @@ v) Paste and run the following command: `git clone https://github.com/INN-SFU/tv
 
 vi) The tvb-node repository should now exist on your local computer in the `tvb` folder!
 
+<br>
+
 ---
+
+<br>
 
 ### 6. Verify your installation with the Installation_Test.ipynb notebook
 
@@ -139,7 +174,11 @@ iii) Double-click `Installation_Test.ipynb` to launch the notebook.
 
 iv) Follow the instructions in the notebook to verify your installation.
 
+<br>
+
 ---
+
+<br>
 
 ### 7. Subsequent Usage
 
@@ -163,6 +202,7 @@ Please watch these introductory videos to TVB from a similar [TVB workshop serie
 
 2. [**Post-processing Considerations**](https://1sfu-my.sharepoint.com/:v:/g/personal/jwa415_sfu_ca/EVdHkycGT_VBscB6KE7Z4F0BNmcmErMSRIpNWQ_SkF5sPQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=aA0YLz) - Imaging inputs and post-processing considerations for brain network modelling
 
+<br>
 
 ## TASK 4. Bring a Laptop to the Session
 Please ensure that you bring a computer with at least 4 GB of RAM and 1 GB of storage (after completion of TVB Install, Setup, and Verification).
