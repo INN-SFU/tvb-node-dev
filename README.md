@@ -52,7 +52,7 @@ Prior to the session participants are asked to complete all pre-session steps in
 
 **Technical Support:**  
 
-- Online office hours will be held prior to the workshop (dates TBA). 
+- Online office hours will be held prior to the workshop on **February 10th 9am to 11am PT** and **February 17th 6am to 8am PT**. 
 - In-person assistance on the day of the workshop: March 6th, 2026 from 8:00–9:00 AM  
 
 ---
