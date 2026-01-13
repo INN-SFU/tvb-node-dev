@@ -136,9 +136,11 @@ docker pull lrokos/tvb_node:latest
 
 ### 4. Start your JupyterLab Session
 
-&emsp;&emsp; i) While Docker Desktop is running (for MacOS and Windows users), open your preferred terminal application (see Section 2 for instructions on which application to use) if not already open
+&emsp;&emsp; i) Ensure Docker Desktop is running (disregard if using Docker Engine on Linux).
 
-&emsp;&emsp; ii) Paste and run the following command, substituting `/your/tvb/path/here` with the filepath you copied in Section 3:
+&emsp;&emsp; ii) Open your preferred terminal application (see Section 2 for instructions on which application to use) if not already open
+
+&emsp;&emsp; iii) Paste and run the following command, substituting `/your/tvb/path/here` with the filepath you copied in Section 3:
 
 ```bash
 docker run -p 8888:8888 -v /your/tvb/path/here:/tvb_node/tvb lrokos/tvb_node:latest
