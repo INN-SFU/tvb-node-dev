@@ -54,6 +54,13 @@ This workshop uses a containerized software environment. Please install **Docker
 
 &emsp;&emsp; iv) Launch Docker Desktop and confirm it is running (you should see "Engine running" in the bottom left corner).
 
+
+#### Linux
+
+&emsp;&emsp; Please see Docker's instructions for setup and usage. You may find it easier to [install Docker Engine using apt](https://docs.docker.com/engine/install/ubuntu/#install-using-the-repository) instead of installing Docker Desktop: https://docs.docker.com/engine/install/ubuntu/
+
+> All `docker` commands you run on Linux must be preceded with `sudo`.
+
 <br>
 
 
@@ -77,7 +84,7 @@ If successful, you should see something along the lines of `Docker version 29.1.
 ### 2. Pull the Docker image
 Once Docker Desktop is installed and running, you will need to download (pull) the workshop Docker image. This image contains all required software and dependencies for the workshop.
 
-> **Important:** Docker Desktop must be open and running before you proceed.
+> **Important:** For Windows and MacOS users, Docker Desktop must be open and running before you proceed.
 
 
 <br>
@@ -93,7 +100,7 @@ docker pull lrokos/tvb_node:latest
 
 <br>
 
-#### macOS
+#### macOS and Linux
 
 &emsp;&emsp; i) Open a **Terminal**.
 
@@ -116,7 +123,7 @@ docker pull lrokos/tvb_node:latest
 
 &emsp;&emsp; ii) Copy the full filepath to this `tvb` folder
 
-&emsp;&emsp; &emsp;&emsp;    - MacOS users can right-click their `tvb` folder and then press `Copy` or `Command+C`
+&emsp;&emsp; &emsp;&emsp;    - MacOS and Linux users can right-click their `tvb` folder and then press `Copy`
 
 &emsp;&emsp; &emsp;&emsp;    - Windows users can right-click their `tvb` folder and then press `Copy as path` or `Ctrl+Shift+C`
 
@@ -129,7 +136,7 @@ docker pull lrokos/tvb_node:latest
 
 ### 4. Start your JupyterLab Session
 
-&emsp;&emsp; i) While Docker Desktop is running, open your preferred terminal application (see Section 2 for instructions on which application to use) if not already open
+&emsp;&emsp; i) While Docker Desktop is running (for MacOS and Windows users), open your preferred terminal application (see Section 2 for instructions on which application to use) if not already open
 
 &emsp;&emsp; ii) Paste and run the following command, substituting `/your/tvb/path/here` with the filepath you copied in Section 3:
 
