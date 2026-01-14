@@ -27,9 +27,9 @@ This workshop introduces participants to **personalized brain network modeling**
 | 8:00–9:00 AM      | Registration, Coffee & Technical Support |
 | 9:00–9:10 AM      | Welcome & Introductions |
 | 9:10–9:40 AM      | TVB Basics |
-| 9:40–11:00 AM     | **Module 1:** Setting up & exploring a simple TVB simulation |
-| 11:00–11:30 AM    | Break #1 |
-| 11:30 AM–12:30 PM | **Module 2:** Model Tuning |
+| 9:40–10:40 AM     | **Module 1:** Setting up & exploring a simple TVB simulation |
+| 10:40–11:10 AM    | Break #1 |
+| 11:10 AM–12:30 PM | **Module 2:** Model Tuning |
 | 12:30–2:00 PM     | Lunch |
 | 2:00–3:20 PM      | **Module 3:** Model Personalization |
 | 3:20–3:50 PM      | Break #2 |
